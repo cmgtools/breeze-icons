@@ -283,10 +283,10 @@
 .cmt-skype:before {
   content: ">";
 }
-.cmt-rotate-clock:before {
+.cmt-rotate-right:before {
   content: "?";
 }
-.cmt-rotate-anti-clock:before {
+.cmt-rotate-left:before {
   content: "@";
 }
 .cmt-return-1:before {
