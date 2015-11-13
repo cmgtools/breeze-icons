@@ -1,0 +1,27 @@
+{
+  "name": "cmt-iconlib",
+  "title": "CMGTools IconLib",
+  "version": "1.0.0-alpha1",
+  "homepage": "http://www.cmsgtools.org/",
+  "authors": [
+    "Bhagwat Singh Chouhan"
+  ],
+  "description": "CMGTools IconLib is icon font providing several useful and good looking icons.",
+  "keywords": [
+    "cmgtools",
+    "Icon Font",
+    "icons"
+  ],
+  "license": "GPLv3",
+  "ignore": [
+    "**/.*",
+    ".gitignore",
+    "gruntfile.js",
+    "package.json",
+    "README.md",
+    "test"
+  ],
+  "main": "dist/styles/cmti.css",
+  "dependencies": {
+  }
+}
