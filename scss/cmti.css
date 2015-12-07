@@ -1034,13 +1034,13 @@
 }
 
 .cmti-pulse-8 {
-    -webkit-animation: cmti-spin 2s infinite steps(8);
-    animation: cmti-spin 2s infinite steps(8);
+    -webkit-animation: cmti-spin 1s infinite steps(8);
+    animation: cmti-spin 1s infinite steps(8);
 }
 
 .cmti-pulse-4 {
-    -webkit-animation: cmti-spin 4s infinite steps(4);
-    animation: cmti-spin 4s infinite steps(4);
+    -webkit-animation: cmti-spin 2s infinite steps(4);
+    animation: cmti-spin 2s infinite steps(4);
 }
 
 @-webkit-keyframes cmti-spin {
