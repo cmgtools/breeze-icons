@@ -918,7 +918,7 @@
   content: "\e0c6";
 }
 
-<!-- core -->
+/* core */
 .cmti {
     display: inline-block;
     font-family: "cmti-core";
@@ -956,7 +956,7 @@
     }
 }
 
-<!-- makes the font 33% larger relative to the cmti container -->
+/* makes the font 33% larger relative to the cmti container */
 .cmti-lg {
     font-size: 1.33333333em;
     line-height: 0.75em;
