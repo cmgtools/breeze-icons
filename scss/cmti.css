@@ -1119,6 +1119,13 @@
     width: 100%;
     text-align: center;
 }
+.cmti.cmti-circled {
+  border-radius: 100%;
+  height: 1.75em;
+  padding-left: 0.35em;
+  padding-top: 0.15em;
+  width: 1.75em;
+}
 
 .cmti-stack-1x {
     line-height: inherit;
