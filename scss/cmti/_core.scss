@@ -33,6 +33,14 @@
     &.cmti-action {
       cursor: pointer;
     }
+
+    &.cmti-circled {
+        border-radius: 100%;
+        height: 1.75em;
+        padding-left: 0.35em;
+        padding-top: 0.15em;
+        width: 1.75em;
+    }
 }
 
 /* makes the font 33% larger relative to the cmti container */
