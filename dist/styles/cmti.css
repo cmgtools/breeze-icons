@@ -305,25 +305,25 @@
 .cmti-edit:before {
   content: "\60";
 }
-.cmti-emotcmtis-happy:before {
+.cmti-emoticons-happy:before {
   content: "\7b";
 }
-.cmti-emotcmtis-hopeful:before {
+.cmti-emoticons-hopeful:before {
   content: "\7c";
 }
-.cmti-emotcmtis-intense:before {
+.cmti-emoticons-intense:before {
   content: "\7d";
 }
-.cmti-emotcmtis-intense-copy:before {
+.cmti-emoticons-laugh:before {
   content: "\7e";
 }
-.cmti-emotcmtis-sad:before {
+.cmti-emoticons-sad:before {
   content: "\5c";
 }
-.cmti-emotcmtis-sulk:before {
+.cmti-emoticons-sulk:before {
   content: "\e000";
 }
-.cmti-emotcmtis-surprise:before {
+.cmti-emoticons-surprise:before {
   content: "\e001";
 }
 .cmti-envelope:before {
@@ -632,7 +632,7 @@
 .cmti-scissor:before {
   content: "\e067";
 }
-.cmti-searcg:before {
+.cmti-search:before {
   content: "\e068";
 }
 .cmti-server:before {
