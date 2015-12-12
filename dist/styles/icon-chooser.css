@@ -29,7 +29,7 @@ input[type=radio], input[type=checkbox] {
 	display:none;
 }
 
-input[type=radio]:checked+.label::before, input[type=checkbox]:checked+.label::before {
+input[type=radio]:checked+.label::before, input[type=checkbox]:checked+.label::before {	
     display:inline-block; 
     background-color:#3498db;
     color:white;    
@@ -40,13 +40,14 @@ input[type=radio]+.label::before, input[type=checkbox]+.label::before {
     color:gray; 
     border-radius:4px;      
     padding:10px;
-    cursor:pointer;
     display:block;
     font-size:25px;
 }
 
-input[type=radio]:hover+.label::before, input[type=checkbox]:hover+.label::before {	    
+.label:hover {	    
 	-webkit-box-shadow: inset 0 0 10px #3498db;
     -moz-box-shadow: inset 0 0 10px #3498db;
     box-shadow: inset 0 0 10px #3498db;
+    border-radius:4px;
+    cursor:pointer;
 }
