@@ -1215,7 +1215,7 @@
   font-synthesis: weight style;
   font-variant: normal;
   font-weight: normal;
-  line-height: 0;
+  line-height: 1;
   text-rendering: auto;
   font-size: 1em;
 }
@@ -1233,13 +1233,6 @@
 }
 .cmti.cmti-action {
   cursor: pointer;
-}
-.cmti.cmti-circled {
-  border-radius: 100%;
-  height: 1.75em;
-  padding-left: 0.35em;
-  padding-top: 0.15em;
-  width: 1.75em;
 }
 
 /* makes the font 33% larger relative to the cmti container */
@@ -1282,43 +1275,6 @@
   border-radius: .1em;
 }
 
-.cmti-pull-left {
-  float: left;
-}
-
-.cmti-pull-right {
-  float: right;
-}
-
-.cmti.cmti-pull-left {
-  margin-right: .3em;
-}
-
-.cmti.cmti-pull-right {
-  margin-left: .3em;
-}
-
-.pull-right {
-  float: right;
-}
-
-.pull-left {
-  float: left;
-}
-
-.cmti.pull-left {
-  margin-right: .3em;
-}
-
-.cmti.pull-right {
-  margin-left: .3em;
-}
-
-.cmti-spin {
-  -webkit-animation: cmti-spin 2s infinite linear;
-  animation: cmti-spin 2s infinite linear;
-}
-
 .cmti-pulse-8 {
   -webkit-animation: cmti-spin 1s infinite steps(8);
   animation: cmti-spin 1s infinite steps(8);
@@ -1327,65 +1283,6 @@
 .cmti-pulse-4 {
   -webkit-animation: cmti-spin 2s infinite steps(4);
   animation: cmti-spin 2s infinite steps(4);
-}
-
-@-webkit-keyframes cmti-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-@keyframes cmti-spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-.cmti-rotate-90 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.cmti-rotate-180 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.cmti-rotate-270 {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-
-.cmti-flip-horizontal {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
-  -webkit-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
-  transform: scale(-1, 1);
-}
-
-.cmti-flip-vertical {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
-  -webkit-transform: scale(1, -1);
-  -ms-transform: scale(1, -1);
-  transform: scale(1, -1);
-}
-
-:root .cmti-rotate-90, :root .cmti-rotate-180, :root .cmti-rotate-270, :root .cmti-flip-horizontal, :root .cmti-flip-vertical {
-  filter: none;
 }
 
 .cmti-stack {
@@ -1410,10 +1307,6 @@
 
 .cmti-stack-2x {
   font-size: 2em;
-}
-
-.cmti-inverse {
-  color: #ffffff;
 }
 
 /*# sourceMappingURL=cmti.css.map */
