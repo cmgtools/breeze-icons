@@ -1,6 +1,18 @@
 .cmti {
-    font-size: 1em;
     display: inline-block;
+    font-family: "cmti-core";
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;    
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    text-rendering: auto;
+    font-size: 1em;
 
     &.cmti-2x {
         font-size: 2em;
@@ -21,4 +33,78 @@
     &.cmti-action {
       cursor: pointer;
     }
+}
+
+/* makes the font 33% larger relative to the cmti container */
+.cmti-lg {
+    font-size: 1.33333333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.cmti-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+.cmti-ul {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none;
+}
+
+.cmti-ul > li {
+    position: relative;
+}
+
+.cmti-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    top: 0.14285714em;
+    text-align: center;
+}
+
+.cmti-li.cmti-lg {
+    left: -1.85714286em;
+}
+
+.cmti-border {
+    padding: .2em .25em .15em;
+    border: solid 0.08em #eeeeee;
+    border-radius: .1em;
+}
+
+.cmti-pulse-8 {
+    -webkit-animation: cmti-spin 1s infinite steps(8);
+    animation: cmti-spin 1s infinite steps(8);
+}
+
+.cmti-pulse-4 {
+    -webkit-animation: cmti-spin 2s infinite steps(4);
+    animation: cmti-spin 2s infinite steps(4);
+}
+
+.cmti-stack {
+    position: relative;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+}
+
+.cmti-stack-1x, .cmti-stack-2x {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.cmti-stack-1x {
+    line-height: inherit;
+}
+
+.cmti-stack-2x {
+    font-size: 2em;
 }
