@@ -6,7 +6,7 @@
   "authors": [
     "Bhagwat Singh Chouhan"
   ],
-  "description": "CMGTools IconLib is icon font providing several useful and good looking icons.",
+  "description": "CMGTools IconLib is icon font providing several useful and beautiful icons.",
   "keywords": [
     "cmgtools",
     "Icon Font",
@@ -14,14 +14,12 @@
   ],
   "license": "GPLv3",
   "ignore": [
-    "**/.*",
     ".gitignore",
     "gruntfile.js",
     "package.json",
-    "README.md",
-    "test"
+    "examples"
   ],
-  "main": "dist/styles/cmti.css",
+  "main": "dist/css/cmti.css",
   "dependencies": {
   }
 }
