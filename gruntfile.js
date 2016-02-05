@@ -2,7 +2,7 @@ module.exports = function( grunt ) {
 
 	grunt.loadNpmTasks( 'grunt-sass' );
 	grunt.loadNpmTasks( 'grunt-contrib-cssmin' );
-	grunt.loadNpmTasks('grunt-contrib-copy');
+	grunt.loadNpmTasks( 'grunt-contrib-copy' );
 
     grunt.initConfig({
         pkg: grunt.file.readJSON( 'package.json' ),
@@ -32,7 +32,7 @@ module.exports = function( grunt ) {
 				files: [
 					{ expand: true, cwd: 'src/scss/cmti/', src: ['**'], dest: 'dist/scss/', filter: 'isFile' },
 					{ expand: true, cwd: 'src/fonts/', src: ['**'], dest: 'dist/fonts/cmgtools/', filter: 'isFile' },
-					{ expand: true, cwd: 'src/scss/', src: ['*.css'], dest: 'examples/styles/', filter: 'isFile' },
+					{ expand: true, cwd: 'dist/css/', src: ['*.css'], dest: 'examples/styles/', filter: 'isFile' },
 					{ expand: true, cwd: 'src/fonts/', src: ['**'], dest: 'examples/fonts/cmgtools/', filter: 'isFile' }
 				]
 			}
