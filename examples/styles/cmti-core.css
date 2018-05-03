@@ -1,3 +1,30 @@
+.cmti {
+  display: inline-block;
+  font-feature-settings: normal;
+  font-kerning: auto;
+  font-language-override: normal;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: weight style;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  text-rendering: auto;
+  font-size: 1em; }
+  .cmti.cmti-1-5x {
+    font-size: 1.5em; }
+  .cmti.cmti-2x {
+    font-size: 2em; }
+  .cmti.cmti-3x {
+    font-size: 3em; }
+  .cmti.cmti-4x {
+    font-size: 4em; }
+  .cmti.cmti-5x {
+    font-size: 5em; }
+  .cmti.cmti-action {
+    cursor: pointer; }
+
 @font-face {
   font-family: "cmti-core";
   src: url("../fonts/cmgtools/cmti-core.eot");
@@ -30,9 +57,7 @@
   -moz-osx-font-smoothing: grayscale; }
 
 .cmti {
-  display: inline-block;
-  font-family: "cmti-core";
-  text-rendering: auto; }
+  font-family: "cmti-core"; }
 
 .cmti-alarm:before {
   content: "\61"; }
@@ -1264,32 +1289,4 @@
 .cmti-zoom-out-o:before {
   content: "\e13b"; }
 
-.cmti {
-  display: inline-block;
-  font-family: "cmti-core";
-  font-feature-settings: normal;
-  font-kerning: auto;
-  font-language-override: normal;
-  font-size-adjust: none;
-  font-stretch: normal;
-  font-style: normal;
-  font-synthesis: weight style;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1;
-  text-rendering: auto;
-  font-size: 1em; }
-  .cmti.cmti-1-5x {
-    font-size: 1.5em; }
-  .cmti.cmti-2x {
-    font-size: 2em; }
-  .cmti.cmti-3x {
-    font-size: 3em; }
-  .cmti.cmti-4x {
-    font-size: 4em; }
-  .cmti.cmti-5x {
-    font-size: 5em; }
-  .cmti.cmti-action {
-    cursor: pointer; }
-
-/*# sourceMappingURL=cmti.css.map */
+/*# sourceMappingURL=cmti-core.css.map */
