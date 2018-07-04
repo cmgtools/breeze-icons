@@ -1,11 +1,11 @@
 {
-  "name": "cmt-iconlib",
-  "title": "CMGTools IconLib",
+  "name": "cmt-breeze-icons",
+  "title": "Breeze Icons",
   "version": "1.0.0-alpha1",
-  "description": "CMGTools IconLib is icon font providing several useful and good looking icons.",
+  "description": "Breeze Icons is icon font providing several useful icons.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cmgtools/cmt-iconlib"
+    "url": "https://github.com/cmgtools/breeze-icons"
   },
   "keywords": [
     "cmgtools",
@@ -16,13 +16,13 @@
   "license": "GPL-3.0",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/cmgtools/cmt-iconlib/issues"
+    "url": "https://github.com/cmgtools/breeze-icons/issues"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "git://github.com/gruntjs/grunt-contrib-cssmin.git",
-    "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.0.0"
+    "grunt-contrib-watch": "^1.0.1",
+    "grunt-sass": "^2.1.0"
   }
 }

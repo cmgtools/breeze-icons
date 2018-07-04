@@ -13,7 +13,8 @@ module.exports = function( grunt ) {
 	        },
 	        dist: {
 	            files: {
-	                'dist/css/cmti.css': 'src/scss/cmti.scss'
+	                'dist/css/breeze-icons-core.css': 'src/scss/breeze-icons-core.scss',
+					'dist/css/breeze-icons-currency.css': 'src/scss/breeze-icons-currency.scss'
 	            }
 	        }
 	   },
@@ -23,17 +24,20 @@ module.exports = function( grunt ) {
 			},
       		target: {
 	        	files: {
-	          		'dist/css/cmti.min.css': [ 'dist/css/cmti.css' ]
+	          		'dist/css/breeze-icons-core.min.css': [ 'dist/css/breeze-icons-core.css' ],
+					'dist/css/breeze-icons-currency.min.css': [ 'dist/css/breeze-icons-currency.css' ]
 	        	}
       		}
     	},
 		copy: {
 			main: {
 				files: [
-					{ expand: true, cwd: 'src/scss/cmti/', src: ['**'], dest: 'dist/scss/', filter: 'isFile' },
-					{ expand: true, cwd: 'src/fonts/', src: ['**'], dest: 'dist/fonts/cmgtools/', filter: 'isFile' },
+					{ expand: true, cwd: 'src/scss/breeze-icons/', src: ['**'], dest: 'dist/scss/', filter: 'isFile' },
+					{ expand: true, cwd: 'src/fonts/core', src: ['**'], dest: 'dist/fonts/breeze/', filter: 'isFile' },
+					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: 'dist/fonts/breeze/', filter: 'isFile' },
 					{ expand: true, cwd: 'dist/css/', src: ['*.css'], dest: 'examples/styles/', filter: 'isFile' },
-					{ expand: true, cwd: 'src/fonts/', src: ['**'], dest: 'examples/fonts/cmgtools/', filter: 'isFile' }
+					{ expand: true, cwd: 'src/fonts/core', src: ['**'], dest: 'examples/fonts/breeze/', filter: 'isFile' },
+					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: 'examples/fonts/breeze/', filter: 'isFile' }
 				]
 			}
 		}
