@@ -1,10 +1,10 @@
 Project 	- CMGTools (http://www.cmgtools.org)
 
-Module  	- CMGTools IconLib
+Module  	- Breeze Icons
 
 License 	- GPLv3 (http://www.gnu.org/licenses/gpl-3.0.html)
 
-Description - CMGTools IconLib is icon font providing several useful and good looking icons.
+Description - Breeze Icons is icon font providing several useful icons.
 
 Highlighted Features
 =========================================

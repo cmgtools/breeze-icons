@@ -1,12 +1,12 @@
 {
-  "name": "cmt-iconlib",
-  "title": "CMGTools IconLib",
+  "name": "cmt-breeze-icons",
+  "title": "Breeze Icons",
   "version": "1.0.0-alpha",
   "homepage": "http://www.cmsgtools.org/",
   "authors": [
     "Bhagwat Singh Chouhan"
   ],
-  "description": "CMGTools IconLib is icon font providing several useful and beautiful icons.",
+  "description": "Breeze Icons is icon font providing several useful icons.",
   "keywords": [
     "cmgtools",
     "Icon Font",
@@ -19,7 +19,7 @@
     "package.json",
     "examples"
   ],
-  "main": "dist/css/cmti.css",
+  "main": "dist/css/breeze-icons-core.css",
   "dependencies": {
   }
 }
