@@ -37,7 +37,10 @@ module.exports = function( grunt ) {
 					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: 'dist/fonts/breeze/', filter: 'isFile' },
 					{ expand: true, cwd: 'dist/css/', src: ['*.css'], dest: 'examples/styles/', filter: 'isFile' },
 					{ expand: true, cwd: 'src/fonts/core', src: ['**'], dest: 'examples/fonts/breeze/', filter: 'isFile' },
-					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: 'examples/fonts/breeze/', filter: 'isFile' }
+					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: 'examples/fonts/breeze/', filter: 'isFile' },
+					{ expand: true, cwd: 'dist/css/', src: ['*.css'], dest: '../breeze/examples/styles/', filter: 'isFile' },
+					{ expand: true, cwd: 'src/fonts/core', src: ['**'], dest: '../breeze/examples/fonts/breeze/', filter: 'isFile' },
+					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: '../breeze/examples/fonts/breeze/', filter: 'isFile' }
 				]
 			}
 		}
