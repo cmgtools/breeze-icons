@@ -3,3 +3,5 @@ bower_components
 package-lock.json
 
 .sass-cache
+dist/**/*.map
+nbproject/
