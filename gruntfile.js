@@ -14,7 +14,8 @@ module.exports = function( grunt ) {
 	        dist: {
 	            files: {
 	                'dist/css/breeze-icons-core.css': 'src/scss/breeze-icons-core.scss',
-					'dist/css/breeze-icons-currency.css': 'src/scss/breeze-icons-currency.scss'
+					'dist/css/breeze-icons-currency.css': 'src/scss/breeze-icons-currency.scss',
+					'dist/css/breeze-icons-brand.css': 'src/scss/breeze-icons-brand.scss'
 	            }
 	        }
 	   },
@@ -25,7 +26,8 @@ module.exports = function( grunt ) {
       		target: {
 	        	files: {
 	          		'dist/css/breeze-icons-core.min.css': [ 'dist/css/breeze-icons-core.css' ],
-					'dist/css/breeze-icons-currency.min.css': [ 'dist/css/breeze-icons-currency.css' ]
+					'dist/css/breeze-icons-currency.min.css': [ 'dist/css/breeze-icons-currency.css' ],
+					'dist/css/breeze-icons-brand.min.css': [ 'dist/css/breeze-icons-brand.css' ]
 	        	}
       		}
     	},
@@ -35,12 +37,15 @@ module.exports = function( grunt ) {
 					{ expand: true, cwd: 'src/scss/breeze-icons/', src: ['**'], dest: 'dist/scss/', filter: 'isFile' },
 					{ expand: true, cwd: 'src/fonts/core', src: ['**'], dest: 'dist/fonts/breeze/', filter: 'isFile' },
 					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: 'dist/fonts/breeze/', filter: 'isFile' },
+					{ expand: true, cwd: 'src/fonts/brand', src: ['**'], dest: 'dist/fonts/breeze/', filter: 'isFile' },
 					{ expand: true, cwd: 'dist/css/', src: ['*.css'], dest: 'examples/styles/', filter: 'isFile' },
 					{ expand: true, cwd: 'src/fonts/core', src: ['**'], dest: 'examples/fonts/breeze/', filter: 'isFile' },
 					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: 'examples/fonts/breeze/', filter: 'isFile' },
+					{ expand: true, cwd: 'src/fonts/brand', src: ['**'], dest: 'examples/fonts/breeze/', filter: 'isFile' },
 					{ expand: true, cwd: 'dist/css/', src: ['*.css'], dest: '../breeze/examples/styles/', filter: 'isFile' },
 					{ expand: true, cwd: 'src/fonts/core', src: ['**'], dest: '../breeze/examples/fonts/breeze/', filter: 'isFile' },
-					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: '../breeze/examples/fonts/breeze/', filter: 'isFile' }
+					{ expand: true, cwd: 'src/fonts/currency', src: ['**'], dest: '../breeze/examples/fonts/breeze/', filter: 'isFile' },
+					{ expand: true, cwd: 'src/fonts/brand', src: ['**'], dest: '../breeze/examples/fonts/breeze/', filter: 'isFile' }
 				]
 			}
 		}
